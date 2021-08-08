@@ -1,19 +1,5 @@
-body {
-    color: rgb(0, 174, 255);
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-h1{
-    color: blue;
-}
-
-h2{
-    color: green;
-}
-
-#lib-header{
-    color: gray;
-}
-
-.para{
-    color: pink;
+body{
+    font-family: 'Roboto Mono', monospace;
 }
