@@ -4,10 +4,16 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
+:root{  
+    --primary-color: #3B82F6;
+}
+
 /* container */
 .container{
     padding-left: 1rem;
     padding-right: 1rem; 
+    /* padding: 0rem 1rem; */
+    /* this means padding: abovePadding left&rightPadding */
 }
 
 .container-center{
@@ -15,3 +21,20 @@ body{
         margin: auto;
 }
 
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
