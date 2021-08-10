@@ -14,6 +14,12 @@ hr{
     margin: 2rem 0rem;
 }
 
+/* spaces */
+.margin-md{
+    padding: 1rem ;
+}
+
+
 /* container */
 .container{
     padding-left: 1rem;
@@ -83,6 +89,7 @@ hr{
 /* header */
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -124,6 +131,10 @@ hr{
 
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer ul{
     padding-inline-start: 0px;
 }

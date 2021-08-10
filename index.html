@@ -1,138 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    <!-- CSS way 1: style tag
-        <style>
-        body {
-            color: red ;
-        }
-    </style> -->
-
-
-    <!-- CSS way 3: style tag -->
-    <link href="styles.css" rel="stylesheet"/>
-
+    <title>Home | Suvrat Verma</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-
-
 <body>
-    <!-- CSS way 2: style tag -->
-    <!-- <h1 style ="color: red">Welcome to Suvrat's component library </h1> -->
-    <h1 >Welcome to Suvrat's component library </h1>
-    <p >Hey i am suvrat and i am happy</p>   
-    <hr>
-
-
-    <h2 >@typography</h2>
-    <h1>This is h1</h1>
-    <h2>This is h2</h2>
-    <p>This is normal text and is a very very long sentence that i like to type many things at super high speeds</p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is a relatively small text</small>
-
    
-    <hr>
-    <h2>@container</h2>
-    <h3 >Fluid container</h3>
-    <div class="container " >This is a fluid container and it will go till the end of the page</div>
-
-    <h3>Fluid container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-    
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>This list will not have bullets.</p>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-        <ul>
-            <li class="list-item-inline" >Inline item one</li>
-            <li class="list-item-inline" >Inline item two</li>
-            <li class="list-item-inline" >Inline item three</li>
-        </ul>
-
-    <h3>reverse ordered list</h3>
-        <ol reversed> 
-            <li>Milk</li>
-            <li>Eggs</li>
-            <li>Break</li>
-        </ol> 
-   
-    <hr> 
-
-    <h2>@nav</h2>
     <nav class="navigation">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">Suvrat Verma</div>
         <ul class="list non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/lib/projects.html">projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/lib/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>  
-    <hr>
-    
-    <h2>@header</h2>
+
+
     <header class="hero">
         <img class="hero-img" src="images/hero.svg"/>
-        <h1 class="hero-heading">Heading inside <span style="color: var(--primary-color)"> hero </span></h1>
+        <h1 class="hero-heading">Welcome to  <span style="color: var(--primary-color)"> Suvrat's page </span></h1>
     </header>
-    <hr>
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>This will have white background</p>
-        </div>
-        
-    </section>  
 
     <section class="section ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This will have gray background</p>
+            <h1>technologies</h1>
+            <p><strong>I'm familiar with C++, java, rubyonrails,git bash, github, github desktop, node.js, html5, css</strong></p>
         </div>
-        
     </section>
-    <hr>
 
-    <h2>@footer</h2>
+    <section class="section ">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>you can find all my projects linked down below</p>
+            <a class="link link-primary" href="/lib/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>hobbies</h1>
+            <p>I absolutely love to play with the newest highest end hardware. I'm also quite a great PC builder(system integrator).</p>
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>you can find all my blogs linked down below</p>
+            <a class="link link-secondary" href="/lib/blogs.html">See blogs</a>
+        </div>
+    </section>
+    
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header"><h1><strong>reach out to me on the web! </h1></strong></div>
+        
         <ul class="social-links non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">socialone   </a></li>
-            <li class="list-item-inline"><a class="link" href="/">socialtwo   </a></li>
-            <li class="list-item-inline"><a class="link" href="/">socialthree </a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/suvvrat">github   </a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/suvvrat">twitter   </a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/suvvrat">linkedin </a></li>
         </ul>
+        <small>my username is the same everywhere ;)</small>
     </footer>   
 
 
-
-
-
-    
-<div style="height: 30vh;"></div>
 </body>
 </html>
